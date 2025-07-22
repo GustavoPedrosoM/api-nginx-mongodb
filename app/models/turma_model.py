@@ -1,5 +1,3 @@
-# app/models/turma_model.py
-
 def turma_helper(turma) -> dict:
     return {
         "id": str(turma["_id"]),

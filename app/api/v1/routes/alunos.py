@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 from app.schemas.aluno_schema import AlunoCreate, AlunoUpdate, AlunoDB
 from app.services.aluno_service import *
 
-router = APIRouter(prefix="/alunos", tags=["Alunos"])
+router = APIRouter()
 
 @router.post("/", response_model=AlunoDB)
 async def criar(data: AlunoCreate):

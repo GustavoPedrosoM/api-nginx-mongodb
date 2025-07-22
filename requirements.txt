@@ -4,3 +4,4 @@ python-dotenv
 pymongo
 pydantic>=2.0
 pydantic-settings
+motor
